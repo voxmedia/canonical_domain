@@ -77,6 +77,21 @@ _suffix parameters like so:
 
 ## Todo
 
+- Rename to something better, ideas:
+    * MultiHost
+    * OmniHost
+    * polygamist
+    * twoface
+- Come up with better words for translation between canonical and
+  environment-specific hosts:
+    * Mogrify
+    * mangle
+    * munge
+    * environmentalize
+    * dress / undress
+    * specificalize
+- Provide activemodel plugin: `has_canonical_domain :domain`, which creates
+  reader method.
 - Provide more flexible options for transforming the host into the request host.
 - Use the [ghost](https://github.com/bjeanes/ghost) gem to automatically manage
   locally accessible domain names.
